@@ -17,6 +17,11 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult About()
+    {
+        // forcing the Privacy View file to be returned instead of the original About View file
+        return View("Privacy");
+    }    
 
     public IActionResult Privacy()
     {
