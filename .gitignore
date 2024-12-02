@@ -1,2 +1,23 @@
-/Bulky/bin/*
-/Bulky/obj/*
+# Ignore build outputs
+*/bin/
+*/obj/
+
+# Ignore user-specific files
+*.vscode
+.vscode/
+
+# Ignore build configuration files
+*.cache
+*.log
+
+# Ignore temporary files
+~$*
+*.tmp
+*.temp
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Ignore JetBrains Rider/IDEA specific files
+.idea/
